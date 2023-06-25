@@ -33,6 +33,7 @@ dependencies {
   implementation("io.vertx:vertx-web:$vertxVersion")
   implementation(platform("io.vertx:vertx-stack-depchain:$vertxVersion"))
   implementation("io.vertx:vertx-core:$vertxVersion") // Add this line
+  implementation("io.vertx:vertx-rx-java3:4.1.8")
   implementation("io.vertx:vertx-lang-kotlin")
   implementation("com.fasterxml.jackson.core:jackson-databind:2.15.2")
   // https://mvnrepository.com/artifact/io.netty/netty-all
